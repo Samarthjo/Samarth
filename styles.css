@@ -34,7 +34,7 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  gap: 56px;
+  gap: 34px;
 }
 
 .header {
@@ -51,8 +51,8 @@ body {
 }
 
 .header .avatar {
-  width: 96px;
-  height: 96px;
+  width: 112px;
+  height: 112px;
   border-radius: 50%;
   overflow: hidden;
   display: block;
@@ -89,6 +89,19 @@ body {
 
 .intro p + p {
   padding-top: 14px;
+}
+
+.intro .pull-quote {
+  margin: 18px 0 4px;
+  padding: 0 0 0 14px;
+  border-left: 2px solid rgba(0, 0, 0, 0.15);
+  color: rgba(0, 0, 0, 0.7);
+  font-style: italic;
+  line-height: 22px;
+}
+
+.intro .pull-quote + p {
+  padding-top: 18px;
 }
 
 a {
