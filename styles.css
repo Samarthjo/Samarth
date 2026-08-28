@@ -282,6 +282,24 @@ div.row {
   padding-top: 14px;
 }
 
+.about .mini-h {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  line-height: 21.7px;
+  letter-spacing: -0.15px;
+  margin-top: 24px;
+  padding-bottom: 4px;
+}
+
+.about .mini-h + .resume-line {
+  padding-top: 0;
+}
+
+.about .resume-line + p {
+  padding-top: 20px;
+}
+
 /* Empty / placeholder pages */
 .empty h2 {
   font-size: 14px;
